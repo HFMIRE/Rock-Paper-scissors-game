@@ -11,36 +11,40 @@
   <title> Rock, Paper, Scissors</title>
 
 </head>
-<!--
-  You Picked
-  The House Picked
-  You Win
-  You Lose
-  Play Again
--->
- 
-<body>
-  <script src="js/main.js"></script>
-  <div id="wrapper">
- <div class="container"> 
-  <img src="images/logo.svg" class='logo'>
-  <h3 class="tally"> SCORE</h3>
- </div>
- <br> 
 
- <div class="image-stack">
-  <div class="image-stack__item--top">
-    <img src="images/bg-triangle.svg" class="triangle">
+<body>
+
+
+  <div id="wrapper">
+  <div class="container"> 
+     <img src="images/logo.svg" class='logo'>
+     <h3 class="tally"> SCORE</h3>
+ </div>
+
+ 
+ <div class="choices">
+     <h3 class="user-choice"> You Picked</h3>
+     <h3 class="computer-choice"> The House Picked </h3>
+ </div>
+
+ <div class="shapes">
+<div class="background-under">
+      <img src="images/bg-triangle.svg" class="triangle">
+ </div>
+  <div class="background-top">
+     <img src="images/icon-rock.svg" alt="Rock" class="rock">
+     <img src="images/icon-scissors.svg" alt="Scissors" class="scissors">
+     <img src="images/icon-paper.svg" alt="paper" class="paper">
   </div>
-  <div class="image-stack__item--bottom">
-    <img src="images/icon-rock.svg" alt="Rock" class="rock">
-    <img src="images/icon-scissors.svg" alt="Scissors" class="scissors">
-    <img src="images/icon-paper.svg" alt="paper" class="paper">
-  </div>
+
+<div>
+    <h3 class="rules-btn"> RULES</h3>
+    <img src="images/image-rules.svg" alt = "Rules-pic" Class="rules-pic">
 </div>
 
-  <h3 class="rules"> RULES</h3>
+  <div>
+    <h3 class="play-again-btn"> Play Again </h3>
   </div>
-  
+  <script src="js/main.js"></script>
 </body>
 </html>

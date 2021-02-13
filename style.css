@@ -91,13 +91,12 @@ body {
   border-width: 15px;
   ;  
  }
-
- .image-stack__item--top {
+.background-under {
    position: relative;
    left: 550px;
    top: 140px;
  }
- .rules {
+ .rules-btn {
   position: absolute;
   text-align: center;
   box-sizing: border-box;
@@ -112,3 +111,30 @@ body {
   color: #fffdfdf6;
   line-height: 40px;
  }
+  
+
+  .rules-btn {
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: hsl(217, 16%, 45%);
+    display: inline-block;
+    top: 550px;
+    right: 100px;
+    height: 50px; 
+    width: 150px;
+    border-radius: 10px;
+    color: #fffdfdf6;
+    line-height: 40px;
+   }
+    
+.play-again-btn {
+  display: none;
+}
+.rules-pic {
+  display: none;
+}
+.choices {
+  display: none;
+}

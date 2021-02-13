@@ -1,3 +1,5 @@
+'use strict'; 
+
 const getUserChoice = userInput =>
 {
   userInput = userInput.toLowerCase();
@@ -12,7 +14,7 @@ const getUserChoice = userInput =>
     } else {
      console.log('Error!');
     }
-} 
+};
 console.log(getUserChoice('paper'));
 
 console.log(getUserChoice('yoy'));
@@ -28,6 +30,6 @@ const getComputerChoice =
      return 'paper';
      case 2: 
      return 'scissor';
- }
+ };
 
 console.log(getComputerChoice());
